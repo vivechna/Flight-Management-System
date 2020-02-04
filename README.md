@@ -1,1 +1,3 @@
 # Flight-Management-System
+
+Here the graph has 10 nodes which play the role of airports ,every edge has 2 types of weight and weight of edges of the graph describes fare and distance from one node to another. User can ask to find the cheapest route between 2 airport or the fastest and the system finds these routes for user at any instant. User can ask to crash(or delete) an airport(or node) and to again do all the processing to find all the routes at any instant.User can also ask to add a new airport and the destination airport for the flights taking off from that airport. The system checks if on adding a new edge if cycle is formed in the graph, if so then it discards that edge(source airport to destination airport flight).
